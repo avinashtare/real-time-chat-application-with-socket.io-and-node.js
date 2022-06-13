@@ -6,4 +6,4 @@
 <p>intalling node_modules</p>
 <br>
 <br>
-<p>Ready To live Caht</p>
+<p>Ready To live Chat</p>
