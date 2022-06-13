@@ -1,4 +1,4 @@
-<h1>First Command => npm install</h1>
+<h1 style="color: 'red';">First Command => npm install</h1>
 <p>intalling node_modules</p>
 <br>
 <br>
