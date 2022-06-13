@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp - chat app</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+    <div class="chat-section">
+        <div class="brand">
+            <img src="/public/img/logo.png" alt="logo">
+            <h2>Whatsapp</h2>
+        </div>
+        <div class="message_area" id="add_messages">
+            <!-- add data here -->
+            <!-- <div class="incoming message">
+                <h4>Avinash</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem incidunt dolorum commodi?</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Rahul</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem incidunt dolorum commodi?</p>
+            </div> -->
+        </div>
+        <div class="send_area">
+            <input id="textarea_message" placeholder="Write a messsage...."></input>
+            <button id="sendChat">Send</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/client.js"></script>
+</body>
+
+</html>

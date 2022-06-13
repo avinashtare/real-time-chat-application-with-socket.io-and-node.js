@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #463f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chat-section {
+    width: 650px;
+    height: auto;
+    background-color: #e7d9d9;
+    border: 3px solid #332f2f;
+}
+
+.chat-section .brand {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #2e2a2a;
+    background-color: #262725;
+}
+
+.chat-section .brand img {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.chat-section .brand h2 {
+    color: white;
+    margin: 5px;
+    font-family: cursive;
+}
+
+.chat-section .message_area::-webkit-scrollbar {
+    width: 5px;
+}
+.chat-section .message_area::-webkit-scrollbar-thumb {
+    background-color: #2e2a2a;
+    border-radius: 50px;
+}
+
+.chat-section .message_area {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(to right, white, #bfbff5);
+    border-bottom: 1px solid #2e2a2a;
+    overflow-y: scroll;
+}
+
+.chat-section .message_area .message {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.chat-section .message_area .message h4 {
+    background-color: #06212c;
+    padding: 12px 6px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.chat-section .message_area .incoming h4 {
+    text-align: right;
+    padding-right: 10px;
+    background-color: #696d6e;
+    color: black;
+}
+
+.chat-section .message_area .outgoing h4 {
+    text-align: left;
+}
+
+.chat-section .message_area .message p {
+    padding: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(46, 5, 63);
+    font-weight: 600;
+}
+
+
+.chat-section .message_area .incoming p {
+    padding-left: 250px;
+    padding-right: 20px;
+    color: #0b7c23;
+    text-align: right;
+}
+.chat-section .message_area .outgoing p {
+    padding-right: 250px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.chat-section .send_area {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.chat-section .send_area input {
+    width: 85%;
+    height: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    resize: none;
+}
+.chat-section .send_area input::placeholder{
+    color: #262725;
+}
+
+.chat-section .send_area button {
+    width: 15%;
+    height: 100%;
+}
